@@ -1,5 +1,7 @@
 ![Barrowmaze Illustration Book](./images/BIB-0.png)
 
+[_<< index_](./index.md)
+
 ## Illustration #1
 
 [<img src="/images/BIB-1.png" alt="Illustration #1" height="100"/>](./images/BIB-1.png)
