@@ -13,3 +13,7 @@ labyrinthine passages, magnificent grave
 goods, and terrifying creatures waiting
 in the dark. Are you brave (or foolish)
 enough to enter Barrowmaze?
+
+### Links
+
+[Illustrations](./illustrations.md)
