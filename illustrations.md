@@ -1,6 +1,9 @@
-![Barrowmaze Illustration Book](./images/BIB-0.png)
+---
+<!-- layout: page -->
+title: Illustrations
+---
 
-[_<< index_](./index.md)
+![Barrowmaze Illustration Book](./images/BIB-0.png)
 
 ## Illustration #1
 

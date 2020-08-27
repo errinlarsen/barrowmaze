@@ -1,4 +1,9 @@
-## Welcome to the Barrowmaze
+---
+<!-- layout: page -->
+title: Index
+---
+
+## Welcome to The Barrowmaze
 
 #### A classic fantasy megadungon
 
@@ -11,9 +16,8 @@ who explore beneath the mounds, or
 rather the few who return, tell tales of
 labyrinthine passages, magnificent grave
 goods, and terrifying creatures waiting
-in the dark. Are you brave (or foolish)
-enough to enter Barrowmaze?
+in the dark.
 
-### Links
+#### Are you brave (or foolish) enough to enter Barrowmaze?
 
-[Illustrations](./illustrations.md)
+![Cover Image](./images/barrowmazecover.png)
