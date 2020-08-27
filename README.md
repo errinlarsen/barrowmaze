@@ -1,2 +1,3 @@
-# barrowmaze
-My Barrowmaze in Greyhawk Campaign
+# The Barrowmaze
+
+Barrowmaze Complete in the World of Greyhawk
