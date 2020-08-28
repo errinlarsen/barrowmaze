@@ -13,3 +13,14 @@ title: Maps
 
 [<img src="./images/centralflanaessmap.jpg" alt="Central Flanaess" height="200"/>](./images/centralflanaessmap.jpg)
 
+#### The Village of Hommlet
+
+[<img src="./images/villagehommletmap.jpg" alt="The Village of Hommlet" height="200"/>](./images/villagehommletmap.jpg)
+
+#### The Barrowmoor's Mounds (_players' map_)
+
+[<img src="./images/barrowmoundsplayermap.jpg" alt="Barrowmounds" height="200"/>](./images/barrowmoundsplayermap.jpg)
+
+##### The Barrowmaze (_dungeon; players' map_)
+
+[<img src="./images/barrowmazeplayermap.jpg" alt="Barrowmaze" height="200"/>](./images/barrowmazeplayermap.jpg)
