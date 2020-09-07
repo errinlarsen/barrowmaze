@@ -19,7 +19,7 @@ title: Maps
 
 #### The Barrowmoor's Mounds (_players' map_)
 
-[<img src="./images/barrowmoundsplayermap.jpg" alt="Barrowmounds" height="200"/>](./images/barrowmoundsplayermap.jpg)
+[<img src="./images/barrowmoundsplayermap.2020.09.03.jpg" alt="Barrowmounds" height="200"/>](./images/barrowmoundsplayermap.2020.09.03.jpg)
 
 ##### The Barrowmaze (_dungeon; players' map_)
 
