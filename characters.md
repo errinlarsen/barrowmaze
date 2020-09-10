@@ -12,13 +12,19 @@ title: Characters
 ## Bran the Wolf
 
 ![Bran the Wolf Portrait](./images/PC-BranTheWolfPortrait.png)
-![Bran the Wolf (_Andrew_)](./images/PC-BranTheWolf.2020.09.03.jpg)
+![Bran the Wolf (_Donut_)](./images/PC-BranTheWolf.2020.09.03.jpg)
+
+
+## Freya
+
+![Freya Portrait](./images/PC-ThrangPortrait.png)
+![Freya (_Andy_)](./images/PC-Thrang.2020.09.03.jpg)
 
 
 ## Greedo
 
 ![Greedo Portrait](./images/PC-GreedoPortrait.png)
-![Greedo (_Andrew_)](./images/PC-Greedo.2020.09.03.jpg)
+![Greedo (_Donut_)](./images/PC-Greedo.2020.09.03.jpg)
 
 
 ## Sarge
@@ -32,8 +38,9 @@ title: Characters
 ![Snipe Portrait](./images/PC-SnipePortrait.png)
 ![Snipe (_Fabien_)](./images/PC-Snipe.2020.09.03.jpg)
 
+
 ## Thrang
 
 ![Thrang Portrait](./images/PC-ThrangPortrait.png)
-![Thrang (_Adam_)](./images/PC-Thrang.2020.09.03.jpg)
+![Thrang (_Adam_)](./images/PC-Thrang.2020.09.03.png)
 
