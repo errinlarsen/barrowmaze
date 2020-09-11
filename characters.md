@@ -17,8 +17,8 @@ title: Characters
 
 ## Freya
 
-![Freya Portrait](./images/PC-ThrangPortrait.png)
-![Freya (_Andy_)](./images/PC-Thrang.2020.09.03.jpg)
+![Freya Portrait](./images/PC-FreyaPortrait.png)
+![Freya (_Andy_)](./images/PC-Freya.2020.09.03.jpg)
 
 
 ## Greedo
@@ -41,6 +41,6 @@ title: Characters
 
 ## Thrang
 
-![Thrang Portrait](./images/PC-ThrangPortrait.png)
-![Thrang (_Adam_)](./images/PC-Thrang.2020.09.03.png)
+![Thrang Portrait](./images/PC-ThrangPortrait.jpg)
+![Thrang (_Adam_)](./images/PC-Thrang.2020.09.03.jpg)
 
