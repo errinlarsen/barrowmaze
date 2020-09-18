@@ -18,18 +18,53 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: The Barrowmaze
-email: errinlarsen@gmail.com
-description: Barrowmaze Complete in the World of Greyhawk
-baseurl: "/" # the subpath of your site, e.g. /blog
+title: 'WoG: Barrowmaze'
+subtitle: 'Barrowmaze Complete in the World of Greyhawk'
+name: 'Errin Larsen'
+email: 'errinlarsen@gmail.com'
+description: 'Barrowmaze Complete in the World of Greyhawk'
 url: "https://barrowmaze.errinlarsen.com" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: irkenz
-github_username:  errinlarsen
+baseurl: "/" # the subpath of your site, e.g. /blog
+repository: "errinlarsen/barrowmaze"
+twitter_username: 'irkenz'
+github_username:  'errinlarsen'
+minimal_mistakes_skin: default
+search: true
 
 # Build settings
-theme: jekyll-theme-dinky
+markdown: kramdown
+remote_theme: 'mmistakes/minimal-mistakes'
+timezone: 'America/Arizona'
+
+# DEFAULTS (for front-matter)
+defaults:
+  # _posts
+  - scope:
+      path: ''
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+  # _pages
+  - scope:
+      path: ''
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+
 # plugins:
 #   - jekyll-feed
+
+plugins:
+  - jekyll-paginate
+  - jakyll-sitemap
+  - jekyll-gist
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
