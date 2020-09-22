@@ -36,6 +36,11 @@ markdown: kramdown
 remote_theme: 'mmistakes/minimal-mistakes'
 timezone: 'America/Arizona'
 
+collections_dir: collections
+collections:
+  characters:
+    output: true
+
 # DEFAULTS (for front-matter)
 defaults:
   # _posts
