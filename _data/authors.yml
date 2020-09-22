@@ -5,26 +5,29 @@ Bran:
   name:   "Bran \"The Wolf\""
   avatar: "/assets/images/PC-BranTheWolfPortrait.png"
 Freya:
-  name: "Freya"
+  name:   "Freya"
   avatar: "/assets/images/PC-FreyaPortrait.png"
+Gahar:
+  name:   "Gahar Deeptunneler"
+  avatar: "/assets/images/PC-GaharPortrait.png"
 Greedo:
-  name: "Greedo"
+  name:   "Greedo"
   avatar: "/assets/images/PC-GreedoPortrait.png"
 Kargor:
   name:   "Kargor \"Viperhand\""
   avatar: "/assets/images/PC-KargorPortrait.png"
 Maphismo:
-  name: "Maphismo"
+  name:   "Maphismo"
   avatar: "/assets/images/PC-MaphismoPortrait.png"
 Sarge:
-  name: "Sarge"
+  name:   "Sarge"
   avatar: "/assets/images/PC-SargePortrait.png"
 SixtyNine:
-  name: "Six Nine Eight 27"
+  name:   "Six Nine Eight 27"
   avatar: "/assets/images/PC-SixtyNinePortrait.png"
 Snipe:
-  name: "Snipe"
+  name:   "Snipe"
   avatar: "/assets/images/PC-SnipePortrait.png"
 Thrang:
-  name: "Thrang"
+  name:   "Thrang"
   avatar: "/assets/images/PC-ThrangPortrait.jpg"
