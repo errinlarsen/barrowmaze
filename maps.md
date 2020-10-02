@@ -4,20 +4,28 @@ title: Maps
 
 # The Flanaess
 
-[<img src="https://i.imgur.com/mHK0PZI.jpg" alt="The Flanaess" height="200"/>](https://i.imgur.com/mHK0PZI.jpg)
+[![The Flanaess](https://i.imgur.com/mHK0PZI.jpg)](https://i.imgur.com/mHK0PZI.jpg)
+{: .full}
 
 ## Central Flanaess
 
-[<img src="./images/centralflanaessmap.jpg" alt="Central Flanaess" height="200"/>](./images/centralflanaessmap.jpg)
+[![Central Flanaess](/assets/images/centralflanaessmap.jpg)](/assets/images/centralflanaessmap.jpg)
+{: .full}
+
 
 ### The Village of Hommlet
 
-[<img src="./images/villagehommletmap.jpg" alt="The Village of Hommlet" height="200"/>](./images/villagehommletmap.jpg)
+[![The village of Hommlet](/assets/images/villagehommletmap.jpg)](/assets/images/villagehommletmap.jpg)
+{: .full}
+
 
 ### The Barrowmoor's Mounds (_players' map_)
 
-[<img src="./images/barrowmoundsplayermap.2020.09.03.jpg" alt="Barrowmounds" height="200"/>](./images/barrowmoundsplayermap.2020.09.03.jpg)
+[![The Barrowmounds](/assets/images/barrowmoundsplayermap.2020.09.03.jpg)](/assets/images/barrowmoundsplayermap.2020.09.03.jpg)
+{: .full}
+
 
 #### The Barrowmaze (_dungeon; players' map_)
 
-[<img src="./images/barrowmazeplayermap.jpg" alt="Barrowmaze" height="200"/>](./images/barrowmazeplayermap.jpg)
+[![The Barrowmaze](/assets/images/barrowmazeplayermap.jpg)](/assets/images/barrowmazeplayermap.jpg)
+{: .full}
