@@ -1,5 +1,10 @@
 ---
 title: Illustrations
+layout: splash
+permalink: /illustrations/
+date: 2020-09-03T08:23:29-0700
+header:
+  overlay_image: /assets/images/barrowmazecover.png
 ---
 
 ![Barrowmaze Illustration Book](/assets/images/BIB-0.png)

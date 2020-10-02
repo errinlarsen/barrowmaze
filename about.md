@@ -1,9 +1,10 @@
 ---
 title: "About: the Barrowmaze"
 permalink: /about/
-tagline: "Are you brave (or foolish) enough to enter Barrowmaze?"
+date: 2020-09-03T08:23:29-07:00
 header:
   overlay_image: /assets/images/barrowmazecover.png
+tagline: "Are you brave (or foolish) enough to enter Barrowmaze?"
 ---
 
 ## A classic fantasy megadungon
@@ -14,5 +15,5 @@ stones. The tomb-robbers who explore beneath the mounds, or rather the few who
 return, tell tales of labyrinthine passages, magnificent grave goods, and
 terrifying creatures waiting in the dark.
 
-![Cover Image]({{ site.url }}{{ site.baseurl }}/assets/images/barrowmazecover.png)
+![Cover Image](/assets/images/barrowmazecover.png)
 {: .full}

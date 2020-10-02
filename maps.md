@@ -1,5 +1,10 @@
 ---
 title: Maps
+layout: splash
+permalink: /maps/
+date: 2020-09-03T08:23:29-07:00
+header:
+  overlay_image: /assets/images/barrowmazecover.png
 ---
 
 # The Flanaess
