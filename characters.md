@@ -50,13 +50,20 @@ pc_row_2:
     btn_label: "View"
     btn_class: "btn--primary"
 pc_row_3:
+  - image_path: /assets/images/PC-MalkoranPortrait.jpg
+    alt: "Malkoran"
+    title: "Malkoran"
+    excerpt: "played by: Adam"
+    url: /characters/Malkoran
+    btn_label: "View"
+    btn_class: "btn--primary"
   - image_path: /assets/images/PC-MaphismoPortrait.png
     alt: "Maphismo"
     title: "Maphismo"
     excerpt: "played by: Adam"
     url: /characters/Maphismo
-    btn_label: "View"
-    btn_class: "btn--primary"
+    btn_label: "Dead"
+    btn_class: "btn--danger"
   - image_path: /assets/images/PC-SargePortrait.png
     alt: "Sarge"
     title: "Sarge"
@@ -64,6 +71,7 @@ pc_row_3:
     url: /characters/Sarge
     btn_label: "View"
     btn_class: "btn--primary"
+pc_row_4:
   - image_path: /assets/images/PC-SixtyNinePortrait.jpg
     alt: "SixtyNine"
     title: "SixtyNine"
@@ -71,7 +79,6 @@ pc_row_3:
     url: /characters/Six_Nine_Eight
     btn_label: "Dead"
     btn_class: "btn--danger"
-pc_row_4:
   - image_path: /assets/images/PC-SnipePortrait.png
     alt: "Snipe"
     title: "Snipe"

@@ -19,6 +19,9 @@ Kargor:
 Maphismo:
   name:   "Maphismo"
   avatar: "/assets/images/PC-MaphismoPortrait.png"
+Malkoran:
+  name:   "Malkoran"
+  avatar: "/assets/images/PC-MalkoranPortrait.jpg"
 Sarge:
   name:   "Sarge"
   avatar: "/assets/images/PC-SargePortrait.png"
