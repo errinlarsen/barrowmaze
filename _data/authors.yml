@@ -1,36 +1,48 @@
 Bonesmith:
   name:   "Bonesmith (a.k.a. Günther)"
   avatar: "/assets/images/PC-BonesmithPortrait.png"
+  bio: "an indentured servant of The Black Alderman--grimacing god of skulls, dentistry, and organ dirges"
 Bran:
   name:   "Bran \"The Wolf\""
   avatar: "/assets/images/PC-BranTheWolfPortrait.png"
+  bio: "when Bran's family was slain by imperial guards for harbouring a renegade prismist (his uncle), his mind was shattered and the spirit of the wolf took hold"
 Freya:
   name:   "Freya"
   avatar: "/assets/images/PC-FreyaPortrait.png"
+  bio: "female, child, in uniform, tall"
 Gahar:
   name:   "Gahar Deeptunneler"
   avatar: "/assets/images/PC-GaharPortrait.png"
+  bio: "DEAD"
 Greedo:
   name:   "Greedo"
   avatar: "/assets/images/PC-GreedoPortrait.png"
+  bio: "initiated into the order of sculptors in Feremhaal, City of Statues, Greedo was one of six dwarves responsible for the fifteen year long task of carving a garganutan statue of the goddess Kaast out of the virgin mountainside. After fourteen years of diligent work, his will cracked and he absconded with a stash of gems meant to decorate the statue's left toe."
 Kargor:
   name:   "Kargor \"Viperhand\""
   avatar: "/assets/images/PC-KargorPortrait.png"
+  bio: "once a duellist of some renown, Kargor was forced out of retirement when his homestead was destroyed by pillaging procines"
 Maphismo:
   name:   "Maphismo"
   avatar: "/assets/images/PC-MaphismoPortrait.png"
+  bio: "DEAD - cleric of Saint Cuthbert"
 Malkoran:
   name:   "Malkoran"
   avatar: "/assets/images/PC-MalkoranPortrait.jpg"
+  bio: "male, adult, immaculate clothing, scrawny"
 Sarge:
   name:   "Sarge"
   avatar: "/assets/images/PC-SargePortrait.png"
+  bio: "a professional soldier, a proud member of the Imperial 17th Infantry, renowned for her stoicism and tactical savvy"
 SixtyNine:
   name:   "Six Nine Eight 27"
   avatar: "/assets/images/PC-SixtyNinePortrait.jpg"
+  bio: "DEAD"
 Snipe:
   name:   "Snipe"
   avatar: "/assets/images/PC-SnipePortrait.png"
+  bio: "a wandering epicurean, trickster, and opportunist, recently escaped from centuries of imprisonment in the kitchen-dungeons of the Ja (mysterious fey entities of mist and shadow)"
 Thrang:
   name:   "Thrang"
   avatar: "/assets/images/PC-ThrangPortrait.jpg"
+  bio: "male, adult, formal attire, ugly"
