@@ -12,7 +12,9 @@ tagline: "Are you brave (or foolish) enough to enter Barrowmaze?"
 > ## Enter a World of Wonder & Intrigue…
 >
 > ...a world where bandit kings raid from their remote stronghold;
+>
 > ...a world where noble elves fight savage invaders and where bold knights wage war on the terror of Iuz;
+>
 > ...a world scarred by a vast Sea of Dust, across which drift lost memories from the awful, forgotten past.
  
 Enter The World of Greyhawk Fantasy Game Setting, an interactive world filled with decaying empires, dark forests, and petty Gods.
@@ -20,7 +22,7 @@ Enter The World of Greyhawk Fantasy Game Setting, an interactive world filled wi
 
 # Welcome to the Village of Hommlet
 
-Barely large enough to be called a proper ‘village,’ the village of Hommlet has grown up around a crossroads on the edge of a vast wood. Once far from any important activity, it became embroiled in the struggle between gods and demons when the Temple of Elemental Evil arose but a few leagues away. Luckily for its inhabitants, the Temple and its evil hordes were destroyed a decade ago, but Hommlet still suffers from incursions of bandits and strange monsters…
+Barely large enough to be called a proper ‘village,’ Hommlet has grown up around a crossroads on the edge of a vast wood. Once far from any important activity, it became embroiled in the struggle between Gods and demons when the Temple of Elemental Evil arose but a few leagues away. Luckily for its inhabitants, the Temple and its evil hordes were destroyed a decade ago, but Hommlet still suffers from incursions of bandits and strange monsters…
 
 
 # Welcome to the Barrowmaze
