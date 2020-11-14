@@ -1,3 +1,7 @@
+Pluffet:
+  name: "Pluffet Smedger, the Elder"
+  avatar: "/assets/images/NPC-PluffetPortrait.png"
+  bio: "of the Royal University at Relmord, C.Y. 998"
 Bonesmith:
   name:   "Bonesmith (a.k.a. Günther)"
   avatar: "/assets/images/PC-BonesmithPortrait.png"
