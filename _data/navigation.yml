@@ -1,6 +1,8 @@
 main:
   - title: About
     url: /about
+  - title: Calendar
+    url: /calendar
   - title: Characters
     url: /characters
   - title: Maps
