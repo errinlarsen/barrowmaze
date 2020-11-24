@@ -3,6 +3,9 @@ author: Bonesmith
 title:  Bonesmith
 layout: single
 date:   2020-09-10 20:23:29 -0700
+excerpt: Cleric 1 (played by Jason)
+header:
+  teaser: /assets/images/PC-BonesmithPortrait-thumb.png
 author_profile: true
 ---
 
