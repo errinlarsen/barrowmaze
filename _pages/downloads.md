@@ -1,7 +1,7 @@
 ---
 title: Downloads/Links
-layout: splash
 permalink: /links/
+layout: splash
 date: 2020-10-02T12:25:23-07:00
 header:
   overlay_image: /assets/images/barrowmazecover.png

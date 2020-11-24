@@ -18,28 +18,37 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: 'WoG: Barrowmaze'
-subtitle: 'Barrowmaze Complete in the World of Greyhawk'
-name: 'Errin Larsen'
-email: 'errinlarsen@gmail.com'
+title:       'WoG: Barrowmaze'
+subtitle:    'Barrowmaze Complete in the World of Greyhawk'
+name:        'Errin Larsen'
+email:       'errinlarsen@gmail.com'
 description: 'Barrowmaze Complete in the World of Greyhawk'
-url: "https://barrowmaze.errinlarsen.com" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "/" # the subpath of your site, e.g. /blog
-repository: "errinlarsen/barrowmaze"
-twitter_username: 'irkenz'
-github_username:  'errinlarsen'
+
+# the base hostname & protocol for your site, e.g. http://example.com
+url: "https://barrowmaze.errinlarsen.com"
+# the subpath of your site, e.g. /blog
+baseurl: "/"
+
+repository:            "errinlarsen/barrowmaze"
+twitter_username:      'irkenz'
+github_username:       'errinlarsen'
 minimal_mistakes_skin: default
-search: true
+search:                false
 
 # Build settings
-markdown: kramdown
+markdown:     kramdown
 remote_theme: 'mmistakes/minimal-mistakes'
-timezone: 'America/Arizona'
+timezone:     'America/Arizona'
+
+# amount of posts to show
+paginate:      5
+paginate_path: /page:num/
 
 collections_dir: collections
 collections:
   characters:
     output: true
+    permalink: /:collection/:path/
 
 # DEFAULTS (for front-matter)
 defaults:
@@ -50,6 +59,7 @@ defaults:
     values:
       layout: single
       author_profile: true
+      related: true
   # _pages
   - scope:
       path: ''
@@ -57,9 +67,13 @@ defaults:
     values:
       layout: single
       author_profile: true
-
-# plugins:
-#   - jekyll-feed
+  # _characters
+  - scope:
+      path: ''
+      type: characters
+    values:
+      layout: single
+      author_profile: false
 
 plugins:
   - jekyll-paginate
@@ -70,6 +84,8 @@ plugins:
   - jemoji
   - jekyll-include-cache
 
+include:
+  - _pages
 
 # Exclude from processing.
 # The following items will not be processed, by default.

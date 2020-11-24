@@ -1,7 +1,7 @@
 ---
 author: Kargor
-title:  "My Dearest Magnolia"
-date:   2020-09-16 01:27:06 -0400
+title: "My Dearest Magnolia"
+date: 2020-09-16 01:27:06 -0400
 categories: pc kargor 'letters home'
 ---
 
