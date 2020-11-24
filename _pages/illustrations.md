@@ -5,62 +5,95 @@ layout: splash
 date: 2020-09-03T08:23:29-0700
 header:
   overlay_image: /assets/images/barrowmazecover.png
+feature_row_1:
+  - image_path: /assets/images/BIB-0.png
+    alt: BIB-0.png
+    title: 'Barrowmaze Illustrations'
+    excerpt: 'This image is used as a placeholder for TBD illustrations'
+  - image_path: /assets/images/BIB-1.png
+    alt: BIB-1.png
+    title: 'Illustration #1'
+    excerpt: 'Mound #12: Show the players Barrowmaze illustration #1 when approaching Mound #12'
+    url: /assets/images/BIB-1.png
+    btn_label: Zoom
+    btn_class: btn--info
+  - image_path: /assets/images/BIB-2.png
+    alt: BIB-2.png
+    title: 'Illustration #2'
+    excerpt: "Mound #12: Show the players Barrowmaze illustration #2 when looking down into Mound #12"
+    url: /assets/images/BIB-2.png
+    btn_label: Zoom
+    btn_class: btn--info
+feature_row_2:
+  - image_path: /assets/images/BIB-0.png
+    alt: BIB-3.png
+    title: 'Illustration #3'
+    excerpt: 'TBD'
+    <!-- url: /assets/images/BIB-3.png -->
+    <!-- btn_label: Zoom -->
+    <!-- btn_class: btn--info -->
+  - image_path: /assets/images/BIB-0.png
+    alt: BIB-4.png
+    title: 'Illustration #4'
+    excerpt: 'TBD'
+    <!-- url: /assets/images/BIB-4.png -->
+    <!-- btn_label: Zoom -->
+    <!-- btn_class: btn--info -->
+  - image_path: /assets/images/BIB-0.png
+    alt: BIB-5.png
+    title: 'Illustration #5'
+    excerpt: 'TBD'
+    <!-- url: /assets/images/BIB-5.png -->
+    <!-- btn_label: Zoom -->
+    <!-- btn_class: btn--info -->
+feature_row_3:
+  - image_path: /assets/images/BIB-0.png
+    alt: BIB-6.png
+    title: 'Illustration #6'
+    excerpt: 'TBD'
+    <!-- url: /assets/images/BIB-6.png -->
+    <!-- btn_label: Zoom -->
+    <!-- btn_class: btn--info -->
+  - image_path: /assets/images/BIB-0.png
+    alt: BIB-7.png
+    title: 'Illustration #7'
+    excerpt: 'TBD'
+    <!-- url: /assets/images/BIB-7.png -->
+    <!-- btn_label: Zoom -->
+    <!-- btn_class: btn--info -->
+  - image_path: /assets/images/BIB-8.png
+    alt: BIB-8.png
+    title: 'Illustration #8'
+    excerpt: 'Room #1: When they look down the hallway out of [room #1], show the players Barrowmaze illustration #8'
+    url: /assets/images/BIB-8.png
+    btn_label: Zoom
+    btn_class: btn--info
+feature_row_4:
+  - image_path: /assets/images/BIB-0.png
+    alt: BIB-9.png
+    title: 'Illustration #9'
+    excerpt: TBD
+    <!-- url: /assets/images/BIB-9.png -->
+    <!-- btn_label: Zoom -->
+    <!-- btn_class: btn--info -->
+  - image_path: /assets/images/BIB-0.png
+    alt: BIB-10.png
+    title: 'Illustration #10'
+    excerpt: TBD
+    <!-- url: /assets/images/BIB-10.png -->
+    <!-- btn_label: Zoom -->
+    <!-- btn_class: btn--info -->
+  - image_path: /assets/images/BIB-0.png
+    alt: BIB-11.png
+    title: 'Illustration #11'
+    excerpt: TBD
+    <!-- url: /assets/images/BIB-11.png -->
+    <!-- btn_label: Zoom -->
+    <!-- btn_class: btn--info -->
 ---
 
-![Barrowmaze Illustration Book](/assets/images/BIB-0.png)
-
-## Illustration #1
-
-[![Illustration #1](/assets/images/BIB-1.png)](/assets/images/BIB-1.png)
-
-- **Mound #12**
-  - _Show the players Barrowmaze illustration #1 when looking at Mound #12_
+{% include feature_row id='feature_row_1' %}
+{% include feature_row id='feature_row_2' %}
+{% include feature_row id='feature_row_3' %}
+{% include feature_row id='feature_row_4' %}
                                       
-## Illustration #2
-
-[![Illustration #2](/assets/images/BIB-2.png)](/assets/images/BIB-2.png)
-
-- **Mound #12**
-  - _Show the players Barrowmaze illustration #2 when looking down into Mound #12_
-                                      
-## Illustration #3
-<!-- [![Illustration #3](/assets/images/BIB-3.png)](/assets/images/BIB-3.png) -->
-                                      
-## Illustration #4
-
-<!-- [![Illustration #4](/assets/images/BIB-4.png)](/assets/images/BIB-4.png) -->
-                                      
-## Illustration #5
-                                      
-<!-- [![Illustration #5](/assets/images/BIB-5.png)](/assets/images/BIB-5.png) -->
-                                      
-## Illustration #6
-                                      
-<!-- [![Illustration #6](/assets/images/BIB-6.png)](/assets/images/BIB-6.png) -->
-                                      
-## Illustration #7
-
-<!-- [![Illustration #7](/assets/images/BIB-7.png)](/assets/images/BIB-7.png) -->
-                                      
-## Illustration #8
-
-[![Illustration #8](/assets/images/BIB-8.png)](/assets/images/BIB-8.png)
-
-- **Room 1**
-  - _When they look down the hallway out of [room #1], show the players Barrowmaze illustration #8_
-                                      
-## Illustration #9
-                                      
-<!-- [![Illustration #9](/assets/images/BIB-9.png)](/assets/images/BIB-9.png) -->
-                                      
-## Illustration #10
-
-<!-- [![Illustration #10](/assets/images/BIB-10.png)](/assets/images/BIB-10.png) -->
-                                      
-## Illustration #11
-                                      
-<!-- [![Illustration #11](/assets/images/BIB-11.png)](/assets/images/BIB-11.png) -->
-                                      
-## Illustration #12
-                                      
-<!-- [![Illustration #12](/assets/images/BIB-12.png)](/assets/images/BIB-12.png) -->
