@@ -1,3 +1,7 @@
+DM:
+  name: "The Dungeon Master"
+  avatar: "/assets/images/DM.png"
+  bio: "(will kill PCs for food)"
 Pluffet:
   name: "Pluffet Smedger, the Elder"
   avatar: "/assets/images/NPC-PluffetPortrait.png"

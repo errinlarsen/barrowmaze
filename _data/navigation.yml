@@ -3,8 +3,12 @@ main:
     url: /about
   - title: Calendar
     url: /calendar
-  - title: Characters
-    url: /characters
+  - title: PCs
+    url: /pcs
+  - title: NPCs
+    url: /npcs
+  - title: Threads
+    url: /threads
   - title: Maps
     url: /maps
   - title: Illustrations

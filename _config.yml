@@ -46,7 +46,13 @@ paginate_path: /page:num/
 
 collections_dir: collections
 collections:
-  characters:
+  pcs:
+    output: true
+    permalink: /:collection/:path/
+  npcs:
+    output: true
+    permalink: /:collection/:path/
+  threads:
     output: true
     permalink: /:collection/:path/
 
@@ -67,10 +73,24 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _characters
+  # _pcs
   - scope:
       path: ''
-      type: characters
+      type: pcs
+    values:
+      layout: single
+      author_profile: false
+  # _npcs
+  - scope:
+      path: ''
+      type: npcs
+    values:
+      layout: single
+      author_profile: false
+  # _threads
+  - scope:
+      path: ''
+      type: threads
     values:
       layout: single
       author_profile: false
