@@ -1,11 +1,12 @@
+# Dungeon Master
 DM:
   name: "The Dungeon Master"
   avatar: "/assets/images/DM.png"
-  bio: "(will kill PCs for food)"
-Pluffet:
-  name: "Pluffet Smedger, the Elder"
-  avatar: "/assets/images/NPC-PluffetPortrait.png"
-  bio: "of the Royal University at Relmord, C.Y. 998"
+  bio: "_will kill PCs for food_"
+
+# Players
+
+# PCs
 Bonesmith:
   name:   "Bonesmith (a.k.a. Günther)"
   avatar: "/assets/images/PC-BonesmithPortrait.png"
@@ -54,3 +55,9 @@ Thrang:
   name:   "Thrang"
   avatar: "/assets/images/PC-ThrangPortrait.jpg"
   bio: "male, adult, formal attire, ugly"
+
+# NPCs
+Pluffet:
+  name: "Pluffet Smedger, the Elder"
+  avatar: "/assets/images/NPC-PluffetPortrait.png"
+  bio: "of the Royal University at Relmord, C.Y. 998"
