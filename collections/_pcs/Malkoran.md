@@ -4,7 +4,7 @@ title:  Malkoran
 pcid: Malkoran
 layout: single
 date:   2020-10-13 12:23:23 -0700
-excerpt: Magic-User 1 (played by Adam)
+excerpt: Magic-User 1 (played by Adam) Hommlet
 header:
   teaser: /assets/images/PC-MalkoranPortrait-thumb.jpg
 author_profile: true

@@ -4,7 +4,7 @@ title:  Greedo
 pcid: Greedo
 layout: single
 date:   2020-09-10 01:23:29 -0700
-excerpt: Dwarf 2 (played by donut)
+excerpt: Dwarf 2 (played by donut) Hommlet
 header:
   teaser: /assets/images/PC-GreedoPortrait-thumb.png
 author_profile: true

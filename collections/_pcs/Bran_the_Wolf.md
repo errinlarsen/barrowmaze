@@ -4,7 +4,7 @@ title: "Bran \"The Wolf\""
 pcid: Bran_the_Wolf
 layout: single
 date: 2020-09-01 01:13:23 -0700
-excerpt: Fighter 1 (played by donut)
+excerpt: Fighter 1 (played by donut) Hommlet
 header:
   teaser: /assets/images/PC-BranTheWolfPortrait-thumb.png
 author_profile: true
