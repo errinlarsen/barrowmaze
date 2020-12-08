@@ -2,6 +2,8 @@
 author: Greedo
 title: Godsday, 4th of Ready'reat
 date: 2020-11-10 20:14:13 -0700
+excerpt: 
+  I have gained clout with the patrons of the Welcome Wench. All the locals recognize my face whenever I enter, and more every day know me even by my name alone!
 categories: pc greedo journals
 ---
 

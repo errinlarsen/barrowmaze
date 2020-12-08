@@ -18,8 +18,25 @@ author_profile: true
 
 ![Maphismo (_Adam_)]({{ site.url }}{{ site.baseurl }}/assets/images/PC-Maphismo.2020.09.22.jpg)
 
-# Other stuff...
+## Posts
 
-Maphismo has been making and hanging flyers around the village of Hommlet.
+{% if paginator %}
+  {% assign posts = paginator.posts %}
+{% else %}
+  {% assign posts = site.posts %}
+{% endif %}
 
-![Maphism's flyer]({{ site.url }}{{ site.baseurl }}/assets/images/PC-MaphismoFlyer.png)
+{% assign entries_layout = page.entries_layout | default: 'list' %}
+{% assign filtered_posts = posts | where: 'author', page.author %}
+<div class="entries-{{ entries_layout }}">
+  {% for post in filtered_posts %}
+    {% include archive-single.html type=entries_layout %}
+  {% endfor %}
+</div>
+
+{% include paginator.html %}
+
+<!-- {% assign filtered_posts = site.posts | where: 'author', page.author %} -->
+<!-- {% for post in filtered_posts %} -->
+<!--   - [{{ post.title }}]({{ post.url }}) -->
+<!-- {% endfor %} -->

@@ -2,6 +2,7 @@
 author: Kargor
 title: "My Dearest Magnolia"
 date: 2020-09-16 01:27:06 -0400
+excerpt: Though the days pass where not a single of the suns rays fall upon my face that I do not crave your softest caress, my will to persevere has never been stronger.
 categories: pc kargor 'letters home'
 ---
 
