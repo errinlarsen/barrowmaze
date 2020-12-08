@@ -11,6 +11,7 @@ gem 'jekyll-seo-tag', '~> 2.0'
 gem 'minimal-mistakes-jekyll'
 gem 'tzinfo'
 
+gem 'pry'
 
 group :jekyll_plugins do
   gem "jekyll-paginate"
