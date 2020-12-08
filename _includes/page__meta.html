@@ -2,8 +2,8 @@
 {% if document.read_time or document.show_date %}
   <p class="page__meta">
     <span class="page__meta-author">
-      <em>Posted by <strong>{{ document.author }} </strong></em>
-    </span>
+      <em>Posted by <strong>{{ site.data.authors[document.author].name }} </strong></em>
+    </span></br>
     {% if document.show_date and document.date %}
       {% assign date = document.date %}
       <span class="page__meta-date">
