@@ -24,13 +24,42 @@ header:
 {: .full}
 
 
-### The Barrowmoor's Mounds (_players' map_)
+### The Barrowmoors' Mounds (_players' map_)
 
 [![The Barrowmounds](/assets/images/barrowmoundsplayermap.2020.12.08.jpg)](/assets/images/barrowmoundsplayermap.2020.12.08.jpg)
 {: .full}
 
 
-#### The Barrowmaze (_dungeon; players' map_)
+#### The Barrowmaze (3 rows by 4 columns _dungeon; players' map_)
 
-[![The Barrowmaze](/assets/images/barrowmazeplayermap.jpg)](/assets/images/barrowmazeplayermap.jpg)
+| (1-1)       | (1-2)       | (1-3)       | (1-4)       |
+| **[_2-1_]** | (2-2)       | (2-3)       | (2-4)       |
+| (3-1)       | **[_3-2_]** | (3-3)       | (3-4)       |
+
+##### Row 1, Column 1
+
+##### Row 1, Column 2
+
+##### Row 1, Column 3
+
+##### Row 1, Column 4
+
+##### Row 2, Column 1
+[![The Barrowmaze](/assets/images/barrowmazeplayermap-2-1.jpg)](/assets/images/barrowmazeplayermap-2-1.jpg)
 {: .full}
+
+##### Row 2, Column 2
+
+##### Row 2, Column 3
+
+##### Row 2, Column 4
+
+##### Row 3, Column 1
+
+##### Row 3, Column 2
+[![The Barrowmaze](/assets/images/barrowmazeplayermap-3-2.jpg)](/assets/images/barrowmazeplayermap-3-2.jpg)
+{: .full}
+
+##### Row 3, Column 3
+
+##### Row 4, Column 4
