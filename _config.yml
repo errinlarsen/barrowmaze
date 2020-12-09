@@ -100,7 +100,6 @@ plugins:
   - jekyll-paginate
   - jakyll-sitemap
   - jekyll-gist
-  - jekyll-gist
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
