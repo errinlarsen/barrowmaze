@@ -16,5 +16,5 @@ author_profile: true
 **Current Location:** {{ pc.location }}
 **Current XP:** {{ pc.xp }}
 
-![SixtyNine (_Adam_)]({{ site.url }}{{ site.baseurl }}/assets/images/PC-SixtyNine.2020.09.22.png)
+![SixtyNine (_Adam_)](/assets/images/PC-SixtyNine.2020.09.22.png)
 

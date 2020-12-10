@@ -16,7 +16,7 @@ author_profile: true
 **Current Location:** {{ pc.location }}
 **Current XP:** {{ pc.xp }}
 
-![Malkoran (_Adam_)]({{ site.url }}{{ site.baseurl }}/assets/images/PC-Malkoran.2020.10.13.jpg)
+![Malkoran (_Adam_)](/assets/images/PC-Malkoran.2020.10.13.jpg)
 
 # Other stuff...
 

@@ -9,7 +9,7 @@ header:
 author_profile: true
 ---
 
-![Hurdoon]({{ site.url }}{{ site.baseurl }}/assets/images/NPC-HurdoonPortrait.jpg)
+![Hurdoon](/assets/images/NPC-HurdoonPortrait.jpg)
 
 Day-laborer and professional Torch-bearer
 

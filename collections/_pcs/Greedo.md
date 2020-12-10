@@ -16,4 +16,4 @@ author_profile: true
 **Current Location:** {{ pc.location }}
 **Current XP:** {{ pc.xp }}
 
-![Greedo (_Donut_)]({{ site.url }}{{ site.baseurl }}/assets/images/PC-Greedo.2020.09.03.jpg)
+![Greedo (_Donut_)](/assets/images/PC-Greedo.2020.09.03.jpg)

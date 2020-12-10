@@ -16,5 +16,5 @@ author_profile: true
 **Current Location:** {{ pc.location }}
 **Current XP:** {{ pc.xp }}
 
-![Sarge (_Jennifer_)]({{ site.url }}{{ site.baseurl }}/assets/images/PC-Sarge.2020.09.03.jpg)
+![Sarge (_Jennifer_)](/assets/images/PC-Sarge.2020.09.03.jpg)
 

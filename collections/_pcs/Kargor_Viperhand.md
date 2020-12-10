@@ -16,4 +16,4 @@ author_profile: true
 **Current Location:** {{ pc.location }}
 **Current XP:** {{ pc.xp }}
 
-![Kargor "Viperhand" (_Anthony_)]({{ site.url }}{{ site.baseurl }}/assets/images/PC-Kargor.2020.09.22.jpg)
+![Kargor "Viperhand" (_Anthony_)](/assets/images/PC-Kargor.2020.09.22.jpg)

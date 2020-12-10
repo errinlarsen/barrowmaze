@@ -16,7 +16,7 @@ author_profile: true
 **Current Location:** {{ pc.location }}
 **Current XP:** {{ pc.xp }}
 
-![Maphismo (_Adam_)]({{ site.url }}{{ site.baseurl }}/assets/images/PC-Maphismo.2020.09.22.jpg)
+![Maphismo (_Adam_)](/assets/images/PC-Maphismo.2020.09.22.jpg)
 
 ## Posts
 

@@ -16,4 +16,4 @@ author_profile: true
 **Current Location:** {{ pc.location }}
 **Current XP:** {{ pc.xp }}
 
-![Gahar (_Jason_)]({{ site.url }}{{ site.baseurl }}/assets/images/PC-Gahar.2020.09.22.jpg)
+![Gahar (_Jason_)](/assets/images/PC-Gahar.2020.09.22.jpg)

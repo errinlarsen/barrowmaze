@@ -9,7 +9,7 @@ header:
 author_profile: true
 ---
 
-![Ostler Gundigoot]({{ site.url }}{{ site.baseurl }}/assets/images/NPC-OstlerPortrait.jpg)
+![Ostler Gundigoot](/assets/images/NPC-OstlerPortrait.jpg)
 
 Proprietor and Innkeeper of the Welcome Wench.
 

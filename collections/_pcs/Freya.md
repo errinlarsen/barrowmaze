@@ -16,5 +16,5 @@ author_profile: true
 **Current Location:** {{ pc.location }}
 **Current XP:** {{ pc.xp }}
 
-![Freya (_Andy_)]({{ site.url }}{{ site.baseurl }}/assets/images/PC-Freya.2020.09.03.jpg)
+![Freya (_Andy_)](/assets/images/PC-Freya.2020.09.03.jpg)
 

@@ -16,5 +16,5 @@ author_profile: true
 **Current Location:** {{ pc.location }}
 **Current XP:** {{ pc.xp }}
 
-![Snipe (_Fabien_)]({{ site.url }}{{ site.baseurl }}/assets/images/PC-Snipe.2020.09.03.jpg)
+![Snipe (_Fabien_)](/assets/images/PC-Snipe.2020.09.03.jpg)
 

@@ -16,5 +16,5 @@ author_profile: true
 **Current Location:** {{ pc.location }}
 **Current XP:** {{ pc.xp }}
 
-![Bonesmith (_Anthony_)]({{ site.url }}{{ site.baseurl }}/assets/images/PC-Bonesmith.2020.09.03.jpg)
+![Bonesmith (_Anthony_)](/assets/images/PC-Bonesmith.2020.09.03.jpg)
 

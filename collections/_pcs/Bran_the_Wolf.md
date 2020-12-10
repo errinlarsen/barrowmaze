@@ -16,4 +16,4 @@ author_profile: true
 **Current Location:** {{ pc.location }}
 **Current XP:** {{ pc.xp }}
 
-![Bran the Wolf (_Donut_)]({{ site.url }}{{ site.baseurl }}/assets/images/PC-BranTheWolf.2020.09.03.jpg)
+![Bran the Wolf (_Donut_)](/assets/images/PC-BranTheWolf.2020.09.03.jpg)
