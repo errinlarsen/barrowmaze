@@ -25,13 +25,13 @@ feature_row_1:
     btn_label: Zoom
     btn_class: btn--info
 feature_row_2:
-  - image_path: /assets/images/BIB-0.png
+  - image_path: /assets/images/BIB-3.png
     alt: BIB-3.png
     title: 'Illustration #3'
-    excerpt: 'TBD'
-    <!-- url: /assets/images/BIB-3.png -->
-    <!-- btn_label: Zoom -->
-    <!-- btn_class: btn--info -->
+    excerpt: "Mound #16: **The Sword-Mound of the Ancients** - Show the players Barrowmaze illustration #3 when they enter this crypt"
+    url: /assets/images/BIB-3.png
+    btn_label: Zoom
+    btn_class: btn--info
   - image_path: /assets/images/BIB-0.png
     alt: BIB-4.png
     title: 'Illustration #4'
