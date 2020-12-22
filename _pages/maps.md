@@ -26,7 +26,7 @@ header:
 
 ### The Barrowmoors' Mounds (_players' map_)
 
-[![The Barrowmounds](/assets/images/barrowmoundsplayermap.2020.12.18.jpg)](/assets/images/barrowmoundsplayermap.2020.12.18.png)
+[![The Barrowmounds](/assets/images/barrowmoundsplayermap.2020.12.18.png)](/assets/images/barrowmoundsplayermap.2020.12.18.png)
 {: .full}
 
 
