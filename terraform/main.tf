@@ -68,27 +68,13 @@ resource "aws_route53_record" "ns_records" {
   ttl  = 30
   type = "NS"
 }
-// Creates `A' Record for the root domain
+
+// Creates `A' Record for the barrowmaze domain
 // - resolving to the cloudfront distribution
 resource "aws_route53_record" "root_static_site_a_record" {
   provider = aws
   zone_id  = aws_route53_zone.hosted_zone.zone_id
-  name     = local.root_domain_name
-  type     = "A"
-
-  alias {
-    name                   = aws_cloudfront_distribution.cf_s3_distribution.domain_name
-    zone_id                = aws_cloudfront_distribution.cf_s3_distribution.hosted_zone_id
-    evaluate_target_health = false
-  }
-}
-
-// Creates `A' Record for the `www' sub-domain
-// - resolving to the cloudfront distribution
-resource "aws_route53_record" "www_static_site" {
-  provider = aws
-  zone_id  = aws_route53_zone.hosted_zone.zone_id
-  name     = "www.${local.root_domain_name}"
+  name     = "barrowmaze.${local.root_domain_name}"
   type     = "A"
 
   alias {
@@ -122,7 +108,7 @@ resource "aws_route53_record" "cname_records" {
 // and with static site hosting enabled
 resource "aws_s3_bucket" "root_static_site" {
   provider      = aws
-  bucket        = local.root_domain_name
+  bucket        = "barrowmaze.${local.root_domain_name}"
   force_destroy = true
   acl           = "private"
 
@@ -131,27 +117,7 @@ resource "aws_s3_bucket" "root_static_site" {
   }
 
   tags = {
-    Name       = local.root_domain_name
-    "app:id"   = "barrowmaze"
-    "app:role" = "jekyll"
-    "app:env " = "production"
-  }
-}
-
-// Private S3 bucket with `www' sub-domain as the bucket name
-// and with redirect to the domain bucket configured
-resource "aws_s3_bucket" "www_static_site" {
-  provider      = aws
-  bucket        = "www.${local.root_domain_name}"
-  force_destroy = true
-  acl           = "private"
-
-  website {
-    redirect_all_requests_to = local.root_domain_name
-  }
-
-  tags = {
-    Name       = local.root_domain_name
+    Name       = "barrowmaze.${local.root_domain_name}"
     "app:id"   = "barrowmaze"
     "app:role" = "jekyll"
     "app:env " = "production"
@@ -184,36 +150,10 @@ resource "aws_s3_bucket_policy" "root_static_site_policy" {
   policy   = data.aws_iam_policy_document.s3_policy.json
 }
 
-// IAM policy for the www sub-domain's S3 bucket to allow CloudFront access
-data "aws_iam_policy_document" "cf_s3_policy" {
-  provider  = aws
-  policy_id = "PolicyForCloudFrontPrivateContent"
-
-  statement {
-    sid       = "PublicCloudFront"
-    effect    = "Allow"
-    actions   = ["s3:GetObject"]
-    resources = ["${aws_s3_bucket.www_static_site.arn}/*"]
-
-    principals {
-      type        = "AWS"
-      identifiers = [aws_cloudfront_origin_access_identity.cf_origin_access_identity.iam_arn]
-      # identifiers = ["*"]
-    }
-  }
-}
-
-// Attach cf_s3_policy to www sub-domain static site S3 bucket
-resource "aws_s3_bucket_policy" "www_static_site_policy" {
-  provider = aws
-  bucket   = aws_s3_bucket.www_static_site.id
-  policy   = data.aws_iam_policy_document.cf_s3_policy.json
-}
-
 // Cloudfront - Origin Access Identity
 resource "aws_cloudfront_origin_access_identity" "cf_origin_access_identity" {
   provider = aws
-  comment  = local.root_domain_name
+  comment  = "barrowmaze.${local.root_domain_name}"
 }
 
 // Cloudfront - Distribution
@@ -230,32 +170,12 @@ resource "aws_cloudfront_distribution" "cf_s3_distribution" {
       origin_protocol_policy = "http-only"
       origin_ssl_protocols   = ["TLSv1", "TLSv1.1", "TLSv1.2"]
     }
-
-    # s3_origin_config {
-    #   origin_access_identity = aws_cloudfront_origin_access_identity.cf_origin_access_identity.cloudfront_access_identity_path
-    # }
-  }
-
-  origin {
-    domain_name = aws_s3_bucket.root_static_site.website_endpoint
-    origin_id   = "S3-www.${local.root_domain_name}"
-
-    custom_origin_config {
-      http_port              = "80"
-      https_port             = "443"
-      origin_protocol_policy = "http-only"
-      origin_ssl_protocols   = ["TLSv1", "TLSv1.1", "TLSv1.2"]
-    }
-
-    # s3_origin_config {
-    #   origin_access_identity = aws_cloudfront_origin_access_identity.cf_origin_access_identity.cloudfront_access_identity_path
-    # }
   }
 
   enabled             = true
   is_ipv6_enabled     = true
   default_root_object = "index.html"
-  aliases             = [local.root_domain_name, "www.${local.root_domain_name}"]
+  aliases             = ["barrowmaze.${local.root_domain_name}"]
   price_class         = "PriceClass_All"
 
   default_cache_behavior {
@@ -290,7 +210,7 @@ resource "aws_cloudfront_distribution" "cf_s3_distribution" {
   }
 
   tags = {
-    Name       = local.root_domain_name
+    Name       = "barrowmaze.${local.root_domain_name}"
     "app:id"   = "barrowmaze"
     "app:role" = "jekyll"
     "app:env " = "production"
@@ -300,7 +220,7 @@ resource "aws_cloudfront_distribution" "cf_s3_distribution" {
 // ResourceGroup to contain all-the-things
 resource "aws_resourcegroups_group" "rgroup" {
   provider = aws
-  name     = "${local.root_domain_name}-resource-group"
+  name     = "barrowmaze.${local.root_domain_name}-resource-group"
 
   resource_query {
     query = <<JSON
@@ -323,7 +243,7 @@ JSON
   }
 
   tags = {
-    Name       = local.root_domain_name
+    Name       = "barrowmaze.${local.root_domain_name}"
     "app:id"   = "barrowmaze"
     "app:role" = "jekyll"
     "app:env " = "production"
