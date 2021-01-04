@@ -25,3 +25,7 @@ header:
   - [Old-School Essentials: Purist sheet](./downloads/Old-School_Essentials_Purist_Character_Sheet.pdf)
   - [Old-School Essentials: Underground sheet](./downloads/Old-School_Essentials_Underground_Character_Sheet.pdf)
 - [Barrowmaze Character Sheet](./downloads/BarrowmazeSheet.pdf)
+
+# Misc
+
+- [Whatch'u Call Me?!](/insults)

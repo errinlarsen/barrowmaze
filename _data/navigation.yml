@@ -1,17 +1,17 @@
 main:
   - title: About
-    url: /about
+    url: /about/
   - title: Calendar
-    url: /calendar
+    url: /calendar/
   - title: PCs
-    url: /pcs
+    url: /pcs/
   - title: NPCs
-    url: /npcs
+    url: /npcs/
   - title: Threads
-    url: /threads
+    url: /threads/
   - title: Maps
-    url: /maps
+    url: /maps/
   - title: Illustrations
-    url: /illustrations
+    url: /illustrations/
   - title: Links
-    url: /links
+    url: /links/
