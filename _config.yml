@@ -25,7 +25,7 @@ email:       'errinlarsen@gmail.com'
 description: 'Barrowmaze Complete in the World of Greyhawk'
 
 # the base hostname & protocol for your site, e.g. http://example.com
-url: "https://barrowmaze.errinlarsen.com"
+url: "https://barrowmaze.errins.place"
 # the subpath of your site, e.g. /blog
 baseurl: "/"
 
@@ -37,7 +37,7 @@ search:                false
 
 # Build settings
 markdown:     kramdown
-remote_theme: 'mmistakes/minimal-mistakes'
+theme:        'minimal-mistakes-jekyll'
 timezone:     'America/Arizona'
 
 # amount of posts to show
@@ -98,7 +98,7 @@ defaults:
 
 plugins:
   - jekyll-paginate
-  - jakyll-sitemap
+  - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
   - jemoji
