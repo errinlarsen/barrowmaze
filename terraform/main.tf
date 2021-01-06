@@ -10,8 +10,8 @@ resource "aws_route53_zone" "hosted_zone" {
 
   tags = {
     Name       = local.root_domain_name
-    "app:id"   = "barrowmaze"
-    "app:role" = "jekyll"
+    "app:id"   = local.app_id
+    "app:role" = local.app_role
     "app:env " = "production"
   }
 }
@@ -33,8 +33,8 @@ resource "aws_acm_certificate" "cert" {
 
   tags = {
     Name       = local.root_domain_name
-    "app:id"   = "barrowmaze"
-    "app:role" = "jekyll"
+    "app:id"   = local.app_id
+    "app:role" = local.app_role
     "app:env " = "production"
   }
 }
@@ -78,8 +78,8 @@ resource "aws_route53_record" "root_static_site_a_record" {
   type     = "A"
 
   alias {
-    name                   = aws_cloudfront_distribution.cf_s3_distribution.domain_name
-    zone_id                = aws_cloudfront_distribution.cf_s3_distribution.hosted_zone_id
+    name                   = aws_cloudfront_distribution.site_cf_distribution.domain_name
+    zone_id                = aws_cloudfront_distribution.site_cf_distribution.hosted_zone_id
     evaluate_target_health = false
   }
 }
@@ -118,8 +118,8 @@ resource "aws_s3_bucket" "root_static_site" {
 
   tags = {
     Name       = "barrowmaze.${local.root_domain_name}"
-    "app:id"   = "barrowmaze"
-    "app:role" = "jekyll"
+    "app:id"   = local.app_id
+    "app:role" = local.app_role
     "app:env " = "production"
   }
 }
@@ -157,7 +157,7 @@ resource "aws_cloudfront_origin_access_identity" "cf_origin_access_identity" {
 }
 
 // Cloudfront - Distribution
-resource "aws_cloudfront_distribution" "cf_s3_distribution" {
+resource "aws_cloudfront_distribution" "site_cf_distribution" {
   provider = aws
 
   origin {
@@ -175,13 +175,16 @@ resource "aws_cloudfront_distribution" "cf_s3_distribution" {
   enabled             = true
   is_ipv6_enabled     = true
   default_root_object = "index.html"
-  aliases             = ["barrowmaze.${local.root_domain_name}"]
+  aliases             = [
+    "${local.app_id}.${local.root_domain_name}",
+    "${local.app_id}.${local.orig_domain_name}"
+  ]
   price_class         = "PriceClass_All"
 
   default_cache_behavior {
     allowed_methods  = ["GET", "HEAD"]
     cached_methods   = ["GET", "HEAD"]
-    target_origin_id = local.s3_origin_id
+    target_origin_id = local.place_s3_origin_id
 
     forwarded_values {
       query_string = false
@@ -210,9 +213,9 @@ resource "aws_cloudfront_distribution" "cf_s3_distribution" {
   }
 
   tags = {
-    Name       = "barrowmaze.${local.root_domain_name}"
-    "app:id"   = "barrowmaze"
-    "app:role" = "jekyll"
+    Name       = "barrowmaze.${local.place_domain_name}"
+    "app:id"   = local.app_id
+    "app:role" = local.app_role
     "app:env " = "production"
   }
 }
@@ -220,7 +223,7 @@ resource "aws_cloudfront_distribution" "cf_s3_distribution" {
 // ResourceGroup to contain all-the-things
 resource "aws_resourcegroups_group" "rgroup" {
   provider = aws
-  name     = "barrowmaze.${local.root_domain_name}-resource-group"
+  name     = "barrowmaze.${local.place_domain_name}-resource-group"
 
   resource_query {
     query = <<JSON
@@ -235,7 +238,7 @@ resource "aws_resourcegroups_group" "rgroup" {
   "TagFilters": [
     {
       "Key": "app:id",
-      "Values": ["barrowmaze"]
+      "Values": [local.app_id]
     }
   ]
 }
@@ -244,8 +247,8 @@ JSON
 
   tags = {
     Name       = "barrowmaze.${local.root_domain_name}"
-    "app:id"   = "barrowmaze"
-    "app:role" = "jekyll"
+    "app:id"   = local.app_id
+    "app:role" = local.app_role
     "app:env " = "production"
   }
 }
